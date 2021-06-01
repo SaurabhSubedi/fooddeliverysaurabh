@@ -1,0 +1,79 @@
+body {
+    background-image: url("../images/background.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.navbar-brand {
+    width: 100%;
+    max-width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url("../images/logo.png");
+    background-size: cover;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+}
+
+.carousel-item {
+    height: 70vh;
+}
+
+.jumbo {
+    border-radius: 15px;
+}
+
+.card {
+    object-fit: cover;
+}
+
+.footer {
+    border: 2px solid black;
+    height: 40px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0px;
+}
+
+.footer span {
+    font-family: fantasy;
+    font-size: 25px;
+    margin-bottom: 9px;
+}
+
+.footer ul {
+    position: relative;
+    bottom: 5px;
+}
+
+.footer ul li a img {
+    height: 40px;
+    width: 40px;
+}
+
+.footer ul li {
+    display: inline;
+}
+
+.footer ul li a img:hover {
+    height: 50px;
+    width: 50px;
+}
+
+.jumbotron {
+    font-family: fantasy;
+}
+
+.img {
+    width: 100%;
+    height: 100%;
+    height: 300px;
+}
